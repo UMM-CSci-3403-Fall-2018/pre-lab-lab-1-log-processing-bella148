@@ -1,0 +1,17 @@
+????????
+I used regexr.com
+????????
+
+
+Regex 0
+========
+The Regex I used was /[A-z]\w+ so what I could capture words both capital, lowercase, and mixed.
+
+Regex 1
+========
+The Regex I used was (?<=I am )(?!awesome)[A-z]+|(?<=is )[A-z]+ which I understand is super messy and only really works for these regexes (regi?)
+
+Regex 2
+========
+I used ((?:\S+)?\S*\.\S*)|(for.*)|(to.*) which excludes beginning whitespace before the first non-white space before the searched word, and
+then will grab the next non-whitespace character after it. it also will search for anything after for or to.
